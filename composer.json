@@ -1,13 +1,13 @@
 {
-    "name": "jeremykenedy/laravel-users",
+    "name": "ahmedmagdy/laravel-users",
     "description": "Laravel Users Management CRUD Package",
     "keywords": ["laravel", "users", "management", "CRUD"],
     "license": "MIT",
     "type": "package",
     "authors": [
         {
-            "name": "jeremykenedy",
-            "email": "jeremykenedy@gmail.com"
+            "name": "ahmedmagdy",
+            "email": "ahmed.m2gdi@gmail.com"
         }
     ],
     "require": {
@@ -16,12 +16,12 @@
     },
     "autoload": {
         "psr-4": {
-            "jeremykenedy\\laravelusers\\": "src/"
+            "ahmedmagdy\\laravelusers\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "jeremykenedy\\laravelusers\\Test\\": "tests/"
+            "ahmedmagdy\\laravelusers\\Test\\": "tests/"
         }
     },
     "require-dev": {
@@ -33,7 +33,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "jeremykenedy\\laravelusers\\LaravelUsersServiceProvider"
+                "ahmedmagdy\\laravelusers\\LaravelUsersServiceProvider"
             ]
         }
     },
