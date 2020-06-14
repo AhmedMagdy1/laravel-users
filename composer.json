@@ -30,6 +30,12 @@
         "illuminate/support": "^7.12",
         "laravel/laravel": "^7.12"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/AhmedMagdy1/laravel-users.git"
+        }
+    ],
     "extra": {
         "laravel": {
             "providers": [
